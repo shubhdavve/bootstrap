@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ques2 (Responsive Grid)</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+   
+    .img-fluid {
+      max-height: 250px;
+      object-fit: cover;
+      width: 100%;
+    }
+    .content-box {
+      padding: 15px;
+      border: 1px solid #d60000;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+    h5 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    
+    <!-- First Column  -->
+    <div class="col-lg-4 col-md-6 col-sm-12 offset-lg-1">
+      <div class="content-box">
+        <img src="../exam/images/ipadpro.jpg" alt="Image 1" class="img-fluid">
+        <h5 class="mt-3">IPAD PRO</h5>
+       
+      </div>
+    </div>
+
+    <!-- Second Column -->
+    <div class="col-lg-4 col-md-6 col-sm-12 offset-lg-1">
+      <div class="content-box">
+        <img src="../exam/images/iphone.jpg" alt="Image 2" class="img-fluid">
+        <h5 class="mt-3">IPHONE</h5>
+        
+      </div>
+    </div>
+
+    <!-- Third Column -->
+    <div class="col-lg-4 col-md-6 col-sm-12 offset-lg-1 ">
+      <div class="content-box">
+        <img src="../exam/images/macbookpro.jpg" alt="Image 3" class="img-fluid">
+        <h5 class="mt-3">MACBOOK</h5>
+        
+      </div>
+    </div>
+
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12 offset-lg-1">
+        <div class="content-box">
+          <img src="../exam/images/trade.jpg" alt="Image 4" class="img-fluid">
+          <h5 class="mt-3">APPLE TRADE</h5>
+         
+        </div>
+      </div>
+
+  </div> <!-- End of row -->
+</div> <!-- End of container -->
+
+<!-- Bootstrap JS for functionality -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
