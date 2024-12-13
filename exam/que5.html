@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que5 (Blog Section)</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+       *{
+        margin-top: 1%;
+       }
+        .blog-card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+            border-radius: 10px; /* Rounded corners for the card */
+        }
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .blog-card img {
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 10px; /* Rounded top corners for images */
+            border-top-right-radius: 10px; /* Rounded top corners for images */
+        }
+        .blog-card-body {
+            padding: 20px;
+        }
+        .blog-card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .blog-card-text {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+        .read-more-btn {
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+       
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+        .col-md-4 {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Blog Section -->
+<div class="container blog-section">
+    <h2 class="text-center mb-5">Latest Blog Posts</h2>
+    <div class="row">
+        <!-- Blog Card 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card blog-card">
+                <img src="../exam/images/jumping-miles-morales-with-possible-spider-abilities-wt2h1ux05276zjg3.jpg" class="card-img-top" alt="Blog 1">
+                <div class="card-body blog-card-body">
+                    <h5 class="card-title blog-card-title">BLOG 1</h5>
+                    <p class="card-text blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas harum facere voluptatum ullam ipsum impedit iste repellat obcaecati perferendis atque!</p>
+                    <a href="#" class="btn btn-primary read-more-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Card 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card blog-card">
+                <img src="../exam/images/spiderman-ps4-spiderman-games-hd-wallpaper-preview.jpg" class="card-img-top" alt="Blog 2">
+                <div class="card-body blog-card-body">
+                    <h5 class="card-title blog-card-title">BLOG 2</h5>
+                    <p class="card-text blog-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iusto impedit consequuntur! Dicta praesentium maiores quam! Asperiores soluta fugiat placeat officia odit error cumque, omnis reprehenderit veniam recusandae autem quae?</p>
+                    <a href="#" class="btn btn-primary read-more-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Card 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card blog-card">
+                <img src="../exam/images/wp5970818.webp" class="card-img-top" alt="Blog 3">
+                <div class="card-body blog-card-body">
+                    <h5 class="card-title blog-card-title">BLOG 3</h5>
+                    <p class="card-text blog-card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet ullam cupiditate suscipit quasi delectus omnis quod, voluptates a sit voluptatem! Vitae at dolorum doloribus.</p>
+                    <a href="#" class="btn btn-primary read-more-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
